@@ -2,8 +2,6 @@ import Vapor
 
 final class Routes: RouteCollection {
     func build(_ builder: RouteBuilder) throws {
-        
-        try builder.resource("posts", PostController.self)
         try builder.resource("snippets", SnippetController.self)
     }
 }
