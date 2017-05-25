@@ -92,6 +92,18 @@
       "version": "0.2.3"
     },
     {
+      "package": "Leaf",
+      "reason": null,
+      "repositoryURL": "https://github.com/vapor/leaf.git",
+      "version": "2.0.0"
+    },
+    {
+      "package": "LeafProvider",
+      "reason": null,
+      "repositoryURL": "https://github.com/vapor/leaf-provider.git",
+      "version": "1.0.0"
+    },
+    {
       "package": "MongoDriver",
       "reason": null,
       "repositoryURL": "https://github.com/vapor/mongo-driver.git",
@@ -101,7 +113,7 @@
       "package": "MongoKitten",
       "reason": null,
       "repositoryURL": "https://github.com/OpenKitten/MongoKitten.git",
-      "version": "4.0.5"
+      "version": "4.0.6"
     },
     {
       "package": "MongoProvider",
