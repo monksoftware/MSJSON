@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAA406C01ED6DB0D0035C013 /* SnippetControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA406BF1ED6DB0D0035C013 /* SnippetControllerTests.swift */; };
 		OBJ_1022 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_947 /* Aliases.swift */; };
 		OBJ_1023 /* Base64Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_948 /* Base64Encoder.swift */; };
 		OBJ_1024 /* Byte+Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_949 /* Byte+Alphabet.swift */; };
@@ -1344,7 +1345,6 @@
 		OBJ_3194 /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_1012 /* Leaf.framework */; };
 		OBJ_3195 /* LeafProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_1013 /* LeafProvider.framework */; };
 		OBJ_3196 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_1014 /* App.framework */; };
-		OBJ_3250 /* PostControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* PostControllerTests.swift */; };
 		OBJ_3251 /* RouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* RouteTests.swift */; };
 		OBJ_3252 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Utilities.swift */; };
 		OBJ_3254 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_967 /* Bits.framework */; };
@@ -5902,6 +5902,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CAA406BF1ED6DB0D0035C013 /* SnippetControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnippetControllerTests.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Droplet+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Droplet+Setup.swift"; sourceTree = "<group>"; };
 		OBJ_100 /* Base64_temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64_temp.swift; sourceTree = "<group>"; };
 		OBJ_1000 /* FluentProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -6030,7 +6031,6 @@
 		OBJ_217 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		OBJ_218 /* HMAC+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HMAC+Foundation.swift"; sourceTree = "<group>"; };
 		OBJ_219 /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rabbit+Foundation.swift"; sourceTree = "<group>"; };
-		OBJ_22 /* PostControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostControllerTests.swift; sourceTree = "<group>"; };
 		OBJ_220 /* String+FoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+FoundationExtension.swift"; sourceTree = "<group>"; };
 		OBJ_221 /* Utils+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+Foundation.swift"; sourceTree = "<group>"; };
 		OBJ_223 /* PBKDF1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBKDF1.swift; sourceTree = "<group>"; };
@@ -7948,9 +7948,9 @@
 		OBJ_21 /* AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_22 /* PostControllerTests.swift */,
 				OBJ_23 /* RouteTests.swift */,
 				OBJ_24 /* Utilities.swift */,
+				CAA406BF1ED6DB0D0035C013 /* SnippetControllerTests.swift */,
 			);
 			name = AppTests;
 			path = Tests/AppTests;
@@ -8760,7 +8760,7 @@
 			path = Provider;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -8772,7 +8772,6 @@
 				OBJ_28 /* Dependencies */,
 				OBJ_966 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_504 /* Routing */ = {
@@ -11692,7 +11691,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_966 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -12862,7 +12861,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_3250 /* PostControllerTests.swift in Sources */,
+				CAA406C01ED6DB0D0035C013 /* SnippetControllerTests.swift in Sources */,
 				OBJ_3251 /* RouteTests.swift in Sources */,
 				OBJ_3252 /* Utilities.swift in Sources */,
 			);

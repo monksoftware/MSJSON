@@ -11,10 +11,7 @@
     <a href="LICENSE">
         <img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT License">
     </a>
-    <a href="https://circleci.com/gh/vapor/mysql">
-        <img src="https://circleci.com/gh/vapor/mysql.svg?style=shield" alt="Continuous Integration">
-    </a>
-    <a href="https://travis-ci.org/vapor/api-template">
+    <a href="https://travis-ci.org/monksoftware/MSJSON">
     	<img src="https://travis-ci.org/vapor/api-template.svg?branch=master" alt="Build Status">
     </a>
     <a href="https://swift.org">
